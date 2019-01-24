@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style_grid.css">
+	<link href="https://fonts.googleapis.com/css?family=Pragati+Narrow" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:700" rel="stylesheet">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		html{
+			font-family: 'Pragati Narrow', sans-serif;
+			font-size: 16px;
+		}
+		a{
+			text-decoration: none;
+		}
+		img{
+			width: 99%;
+		}
+		body{
+			background: #fffcf9;
+		}
+		header{
+			height: 160px;
+			text-align: center;
+		}
+		header>div{
+			border-color: black;
+			border-width: 0.5px;
+			border-style: solid;
+			height: 160px;
+		}
+		header hgroup{
+			padding: 5px 0 0 0;
+		}
+		nav ul li{
+			display: inline-block;
+			list-style-type: none;
+			border-width: 0.05em;
+			border-color: black;
+			border-style: solid;
+		}
+		h1{
+			font-size: 5em;
+			line-height: 1em;
+		}
+		main h1{
+			font-size: 4.8em;
+			line-height: 1em;
+			font-family: 'Crimson Text', serif;
+		}
+		main h2{
+			font-size: 3em;
+			line-height: 1em;
+			font-family: 'Crimson Text', serif;
+		}
+		main h3{
+			font-size: 1em;
+		}
+		main p{
+			font-size: 0.9em; 
+		}
+		main hgroup{
+			width: 99%;
+			bottom: 0;
+			z-index: 5;
+			bottom: 2px;
+			left: 2px;
+			right: 2px;
+			margin: 20px 0 20px 0;
+			text-align: center;
+		}
+		section{
+			border-width: 0.05em;
+			border-color: black;
+			border-style: solid;
+			overflow: hidden;
+			padding: 30px 30px 30px 30px;
+		}
+		footer div{
+			border-width: 0.05em;
+			border-color: black;
+			border-style: solid;
+			text-align: center;
+		}
+		.container{
+			width: 1024px;
+			margin: auto;
+			position: relative;
+		}
+		#dashed{
+			border-width: 2px;
+			border-color: black;
+			border-style: dashed;
+		}
+		#c1, #c2{
+			height: 635px;
+		}
+		#c3, #c4{
+			height: 470px;
+		}
+		#c5, #c7{
+			height: 610px;
+		}
+	    #c6{
+	    	height: 700px;
+	    }
+	    #c8{
+	    	position: absolute;
+	    	margin-top: 610px;
+	    	height: 90px;
+	    	padding: 0;
+	    }
+	    #c9{
+	    	position: absolute;
+	    	margin-top: 610px;
+	    	height: 90px;
+	    	padding: 0;
+	    }
+	    #cc{
+			width: 100%;
+			display: table;
+		}
+		#hg2{
+			line-height: 1em;
+			padding: 50px 0 0 0;
+		}
+		#small{
+			font-size: 3em;
+			text-align: center;
+			margin-top: 20px;
+		}
+		#columnas p{
+			columns: 2;
+			font-size: 0.9em;
+		}
+		#pez{
+			position: absolute;
+			width: 250px;
+			z-index: -5;
+			margin-left: 480px;
+		}
+		#readmore{
+			text-align: right;
+		}
+		#seaharvest{
+			position: absolute;
+			font-size: 3.5em;
+			padding: 0 0 0 20px;
+		}
+		#fresh{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<header class="container">
+		<div class="col-2">
+		    <img src="images/seaharvest_img_03_03.jpg">
+	    </div>
+		<div class="col-8">
+			<hgroup>
+			    <h3>SUNDAY, DECEMBER 16, 2018</h3>
+			    <h1>SEA HARVEST</h1>
+			    <h2>FRESH SEAFOOD MARKET</h2>
+		    </hgroup>
+		</div>
+		<div class="col-2">
+			<hgroup id="hg2">
+			    <h3>BELCONNEN<br>MARKETS</h3>
+			    <h3>FYSHWICK<br>MARKETS</h3>
+		    </hgroup>
+		</div>
+		<nav class="col-12">
+			<ul>
+				<li class="col-3"><a href="#">ABOUT</a></li>
+				<li class="col-3"><a href="#">PRODUCTS</a></li>
+				<li class="col-3"><a href="#">CONTACT</a></li>
+				<li class="col-3"><a href="#">ORDER</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="container">
+		<div id="cc">
+		    <section id="c1" class="col-8">
+			    <h1>CATCH OF THE<br> DAY</h1>
+			    <h3>FROM SEA TO PLATE</h3>
+			    <div>
+			    	<img src="images/seaharvest_img_10_03.jpg">
+			    </div>
+			    <p>The latest harvest has yielded deliciously fresh seafood perfect for devouring on its own or as part of a scrumptious recipe. Here’s a seasonal favourite…</p>
+			    <a href="#"><p id="readmore">Full report on page 3</p></a>
+		    </section>
+		    <section id="c2" class="col-4">
+		     	<div id="dashed">
+			        <h1 id="small">FIND US</h1>
+				<div>
+				<img src="images/seaharvest_img_07.jpg">
+			</div>
+			    <hgroup>
+					<h3>BELCONNEN MARKETS</h3>
+					<p>10 LATHLAIN ST, BELCONNEN<br>ACT 2617, AUSTRALIA<br>OPEN WED-SUN 8:00AM-6:00pm</p>
+				</hgroup>
+				<hgroup>
+					<h3>FYSHWICK MARKETS</h3>
+					<p>12 DALBY ST, FYSHWICK ACT<br>2609, AUSTRALIA<br>OPEN THE-SUN 7:00AM-5:30PM</p>
+				</hgroup>
+		    </div>
+			</section>
+			<section id="c3" class="col-3">
+				<div id="dashed">
+				    <div>
+					    <img src="images/seaharvest_img_15.jpg">
+				    </div>
+					<h1 id="small">GET IN TOUCH</h1>
+					<hgroup>
+						<h3>CALL US</h3>
+						<p>0436 455 551</p>
+						<h3>EMAIL US</h3>
+						<a href="#">CLICK HERE</a>
+				</div>
+			</section>
+			<section id="c4" class="col-9">
+				<img id="pez" src="images/seaharvesdt_img_03.jpg">
+				<h1>STRAIGHT FROM<br>THE SOURCE</h1>
+				<div class="col-8" id="columnas">
+					<h3>SEA HARVEST FRESH</h3>
+					<p>The blue green waters off the south east coast of Australia glisten as the sun rises above the horizon. Up early and eager, local fishermen brave the choppy seas as they collect their daily yield. Dedicated to preservation, they work extra hard to follow environmentally sustainable fishing practices – including avoiding overfishing, staying clear of protected areas, releasing protected species, and using safe fishing gear. As they arrive back at the docks, the huge array of fresh seafood is put on ice and shipped directly to Sea Harvest’s door in Canberra. Oysters, prawns, mussels, calamari, lobster, snapper, and every seasonal fish available travels straight from sea to store, just for you.</p>
+				</div>
+			</section>
+			<div class="col-12">
+			<section id="c5" class="col-4">
+				<h2>THE SEA<br>HARVEST<br>STORY</h2>
+				<h3>A TALE OF FISH AND FAMILY</h3>
+				<img src="images/seaharvest_img_21.jpg">
+				<p>The Sea Harvest story begins in the 1800s on a small, picturesque fishing island called Lefkada in Greece. For generations since, our love of the sea and taste for seafood has endured, following us to Canberra where we settled in the 1970s. For over 40 years now, we have dedicated ourselves to bringing the finest and freshest Australian seafood to our nation’s capital.</p>
+				<a href="#"><p id="readmore">Continued on page 9</p></a>
+			</section>
+			<section id="c6" class="col-4">
+				<h2>BATEMANS<br>BAY<br>FISHING<br>TIPS</h2>
+				<h3>SCORE THE BEST CATCH</h3>
+				<img src="images/seaharvest_imfg_03_03.jpg">
+				<p>Cars will soon be bumper-to-bumper on the Clyde and Brown mountains as Canberrans pour out of the capital to feel the sun on their backs and…</p>
+				<a href="#"><p id="readmore">Read more on page 11</p></a>
+			</section>
+			<section id="c7" class="col-4">
+				<div id="fresh">
+					<h2>FRESH AS<br>IT GETS</h2>
+					<h3>A TASTE OF THE SEA</h3>
+					<img src="images/seaharvest_img_19.jpg">
+				</div>
+				<p>Sea Harvest’s seafood is trusted by many of the best seafood restaurants in Canberra. We are obsessed with cleanliness and quality, and only buy from suppliers who are 100% committed to sustainable fishing practices and the long term protection of sea life. We buy fresh so that we can sell fresh, and pride ourselves on bringing the best of the coast to the capital.</p>
+			</section>
+			<section id="c8" class="col-4">
+			</section>
+			<section id="c9" class="push-8 col-4">
+				<h4 id="seaharvest">SEA HARVEST</h4>
+			</section>
+		</div>
+	</main>
+	<footer class="container">
+		<div class="col-5">
+			<h4>©2018 SEA HARVEST AUSTRALIA, FRESH SEAFOOD MARKET</h4>
+		</div>
+		<div class="col-4">
+			<h4>BELKONNEN MARKETS / FYSHWICK MARKETS</h4>
+		</div>
+		<div class="col-3">
+			<h4>WEBSITE BY ED.</h4>
+		</div>
+	</footer>
+</body>
+</html>
